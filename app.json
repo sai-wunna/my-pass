@@ -1,27 +1,31 @@
 {
   "expo": {
-    "name": "blank-version",
-    "slug": "blank-version",
-    "version": "1.0.0",
+    "name": "My Pass v-2",
+    "slug": "My-Pass-v-2",
+    "version": "0.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/key-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/key.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
+    "newArchEnabled": true,
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/key.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.saiwunna.MyPassv2"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e7100c57-2b55-443d-8786-b117b0cdf295"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
